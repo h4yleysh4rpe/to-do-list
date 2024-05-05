@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+    <html lang = "en"> 
+        <head>
+            <meta charset = "UTF-8">
+            <link rel="stylesheet" type="text/css" href="mainCSS.css"> <!-- this is how CSS and HTML talk to each other -->
+            <script type = "text/javascript" src = "mainJS.js" defer></script>
+            <title> Hayley's sample website </title>
+        </head>
+        <body>
+            <h1> Create a to-do list! </h1>
+            <table id="mainTable">
+                <tr>
+                    <th>Completed?</th>
+                    <th width="130">Task</th>
+                </tr>
+            </table>
+            <div></div>
+            <input type="text" id="newTask" >
+            <button onclick="addToList(document.getElementById('newTask').value)" id="confirm"> Add task </button>
+            <p id="confMsg"></p>
+        </body>
+    </html>

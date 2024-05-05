@@ -1,0 +1,30 @@
+head {
+    color: #1c0f1f;
+}
+
+body {
+    font: "Arial";
+    background-color: hsl(266, 100%, 91%);
+}
+
+table {
+    border-collapse: collapse;
+    color: #1c0f1f
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #d8b9ff;
+}
+
+button {
+    font: "Arial";
+    background-color: #d2afff;
+    color: #1c0f1f;
+
+}
+
+button:hover {
+    background-color: #775e96;
+}
